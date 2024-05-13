@@ -2,8 +2,10 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            width: 100%;
         }
-        
+       
+       
         header{
             background-color: #333;
             color: #fff;
@@ -14,7 +16,7 @@
             font-family: cursive;
             font-weight: bold;
         }
-
+    
         header h1{
             animation: slideInLeft 3s;
         }
@@ -27,6 +29,7 @@
           .slide-in-left {
             animation: slideInLeft 3s;
           }
+
 
 /*Nav*/
 
@@ -76,6 +79,7 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-right: 5%;
+            margin-bottom: 80%;
         }
 
         .profile img{
@@ -198,7 +202,7 @@
            text-align: justify;
            text-indent: 60px;
            font-size: 20px;
-           margin-left: 500px;
+           margin-left: 100px;
         }
 
 /*about*/
@@ -245,7 +249,7 @@
             text-align: justify;
             text-indent: 60px;
             margin-bottom: 20px;
-            margin-left: 500px;
+            margin-left: 100px;
             margin-top: 20px;
             font-size: 20px;
             font-family: serif;
@@ -256,6 +260,7 @@
             justify-content: center;
             font-size: larger;
             text-align: justify;
+            margin-left: 100px;
         }
 
         .education h1{
@@ -288,29 +293,35 @@
         }
 
         .education table{
-            margin-left: 500px;
-        }
-        .education th{
-            font-family: serif;
-            text-align: center;
-            font-weight: bolder;
+            margin-left: 100px;
+            table-layout: auto;
+            border: 3px groove black;
+            border-collapse: collapse;
         }
 
-        .education td{
+        .education tr:hover{
+            background-color: #c57600;
+        }
+
+        .education th, td{
             font-family: serif;
             text-align: center;
-            border-width: 3px;
             text-indent: 4px;
             font-size: 20px;
+            border-bottom: 1px solid #ddd;
         }
 
+        .education th{
+            font-weight: bolder;
+            background-color: black;
+            color: #ddd;
+        }
 
         .education p{
             justify-content: center;
             text-align: justify;
             text-indent: 60px;
             margin-bottom: 20px;
-            margin-left: 500px;
             margin-top: 20px;
             font-size: 20px;
             font-family: serif;
@@ -348,11 +359,13 @@
             animation-delay: 5.2s;
         }
         
+
 /*skills*/
         .skills{
             justify-content: center;
             font-size: larger;
             text-align: justify;
+            margin-left: 100px;
         }
 
         .skills h1{
@@ -360,12 +373,10 @@
             font-family: fantasy;
             font-size: 50px;
             text-align: center;
-            margin-left: 450px;
         }
 
         .skills h1 > span {
             animation: glow 2s ease-in-out infinite;
-
         }
 
         @keyframes glow {
@@ -397,16 +408,16 @@
         }
 
         .skills li {
-            font-size: 2opx;
+            font-size: 15px;
             font-weight: bolder;
             margin-bottom: 10px;
-            margin-left: 500px;
+            margin-left: 400px;
         }
         
         .progress-bar {
             background-color: #f0f0f0;
             border-radius: 5px;
-            height: 20px;
+            height: 15px;
             margin-top: 5px;
             margin-left: 60px;
         }
@@ -482,7 +493,7 @@
         }
  
         .hobbiesText:hover {
-            border: 2px solid #795f0a;
+            border: 2px solid #c57600;
         }
 
         .row1 {
@@ -504,7 +515,7 @@
         }
  
         .hobbiesText1:hover {
-            border: 2px solid #795f0a;
+            border: 2px solid #c57600;
         }
 
         .row2 {
@@ -520,19 +531,20 @@
             align-content: center;
             text-align: center;
           }
+
         .card-title2 {
             text-align: center;
             font-size: 25px;
         }
  
         .hobbiesText2:hover {
-            border: 2px solid #795f0a;
+            border: 2px solid #c57600;
         }
 
         .row3 {
             width: 500px;
             position: absolute;
-            top: 96%;
+            top: 95%;
             margin-left: 500px;
         }
 
@@ -548,7 +560,7 @@
         }
  
         .hobbiesText3:hover {
-            border: 2px solid #795f0a;
+            border: 2px solid #c57600;
         }
 
 /*Photo*/
@@ -589,7 +601,7 @@
             text-align: center;
             overflow: hidden;
             transition: all 0.3s ease;
-            margin-left: 500px;
+            margin-left: 100px;
             margin-top: 10px;
         }
 
@@ -603,7 +615,7 @@
         }
 
         .photos .carousel .card .box{
-            display: flex;
+            display: absolute;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -723,11 +735,11 @@
         
         .contact li i {
             margin-right: 10px;
-            color: #007bff;
+            color: #c57600;
         }
         
         .contact-map {
-            background-color: #f1f1f1;
+            background-color: #f4f4f4;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -736,7 +748,7 @@
             font-size: 30px;
             color: #333;
             text-align: center;
-            margin-top: 5px;
+            margin-top: 0px;
         }
         
         .contact-map iframe {
@@ -745,6 +757,7 @@
             border: none;
             margin-left: 90px;
         }
+        
 /*footer*/
 
         footer{
@@ -756,6 +769,3 @@
             font-family: sans-serif;
             clear: both;
         }
-
-
-        
