@@ -149,18 +149,19 @@ nav ul li a:hover {
 /* Mobile View Adjustments */
 @media (max-width: 768px) {
     nav {
-        padding: 20px 5%;
-        justify-content: right;
+        padding: 20px 0%;
+        justify-content: center;
     }
 
     nav ul li {
-        display: block;
-        margin-bottom: 10px;
+        display: inline-flex;
+        margin-bottom: 5px;
+        margin-top: 5%;
     }
 
     nav ul li a {
         font-size: 12px;
-        padding: 8px 20px;
+        padding: 8px 5px;
     }
 
     .container {
@@ -716,7 +717,7 @@ nav ul li a:hover {
     .hobbies h1 {
         font-size: 35px;
         margin-left: 0;
-        top: 25%;
+        top: 125%;
         left: 10%;
         width: 80%;
     }
@@ -726,12 +727,12 @@ nav ul li a:hover {
         margin-left: 10%;
         position: relative;
         top: auto;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .hobbiesText.card, .hobbiesText1.card, .hobbiesText2.card, .hobbiesText3.card {
         height: auto;
-        padding: 20px;
+        padding: 25px;
     }
 
     .card-title, .card-title1, .card-title2, .card-title3 {
