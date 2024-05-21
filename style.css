@@ -946,12 +946,11 @@ nav ul li a:hover {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    font-size: 25px;
     font-weight: bolder;
 }
 
 .contact li {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
     font-family: serif;
     font-weight: bolder;
